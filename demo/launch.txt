@@ -1,0 +1,2 @@
+docker build -t ltiapp .
+docker run -d --name my-running-app -p 8080:80 -v //c/LTI/workshop-lti-basic/demo/html:/var/www/html/ ltiapp
